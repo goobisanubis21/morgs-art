@@ -1,0 +1,13 @@
+#navBar {
+    padding: 15px;
+    background-color: rgb(212, 166, 166);
+    border-bottom: 2px solid black;
+    align-items: center;
+}
+
+#navBar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}

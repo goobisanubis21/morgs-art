@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Nav from "./component/Nav/Nav"
-import Home from "./pages/Home"
-import Gallery from "./pages/Gallery"
+import Nav from "./component/Nav/Nav";
+import Header from "./component/Header/Header";
+import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
 import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/Contact"
 import Cart from "./pages/Cart";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Router>
         <div>
           <Nav />
+          <Header />
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/gallery" component={Gallery}/>
@@ -20,6 +23,7 @@ function App() {
             <Route exact path="/contact" component={ContactMe}/>
             <Route exact path="/cart" component={Cart} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     </div>
