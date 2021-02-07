@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "title": "Bee Queen",
+        "image": "./images/bee_queenn.jpg",
+        "price": "500 USD",
+        "date": "2019"
+    },
+    {
+        "id": 2,
+        "title": "Breath",
+        "image": "",
+        "price": "1000 USD",
+        "date": "2020"
+    },
+    {
+        "id": 3,
+        "title": "Dark Seas",
+        "image": "",
+        "price": "1200 USD",
+        "date": "2018"
+    },
+    {
+        "id": 4,
+        "title": "Florida Foxtrot",
+        "image": "",
+        "price": "500 USD",
+        "date": "2019"
+    },
+    {
+        "id": 5,
+        "title": "Genisis",
+        "image": "",
+        "price": "1200 USD",
+        "date": "2020"
+    },
+    {
+        "id": 6,
+        "title": "Golden Hour",
+        "image": "",
+        "price": "1500 USD",
+        "date": "2017"
+    },
+    {
+        "id": 7,
+        "title": "Maid in America",
+        "image": "",
+        "price": "800 USD",
+        "date": "2020"
+    },
+    {
+        "id": 8,
+        "title": "Norma Jean",
+        "image": "",
+        "price": "600 USD",
+        "date": "2019"
+    },
+    {
+        "id": 9,
+        "title": "Poppy",
+        "image": "",
+        "price": "600 USD",
+        "date": "2020"
+    },
+    {
+        "id": 10,
+        "title": "Reincarnation",
+        "image": "",
+        "price": "1500 USD",
+        "date": "2020"
+    },
+    {
+        "id": 11,
+        "title": "Serendipity",
+        "image": "",
+        "price": "1500 USD",
+        "date": "2020"
+    },
+    {
+        "id": 12,
+        "title": "Where Theres a Whale Theres a Way",
+        "image": "",
+        "price": "500 USD",
+        "date": "2019"
+    }
+]
