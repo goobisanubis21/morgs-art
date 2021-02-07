@@ -4,35 +4,42 @@ import "./nav.css";
 
 function Nav() {
     return (
-        <div>
-            <ul className="nav nav-tabs" id="navBar">
-                <li>🎨</li>
-                <li className="nav-item" title="Home Page">
-                    <Link to="/" >
-                        Home
+        <div id="navItem">
+            <div id="border" >
+                <ul className="nav" id="navBar">
+                    <hr />
+                    <li className="nav-item" title="Home Page">
+                        <Link to="/" >
+                            HOME
                 </Link>
-                </li>
-                <li className="nav-item" title="Gallery">
-                    <Link to="/gallery" >
-                        Gallery
+                    </li>
+                    <hr />
+                    <li className="nav-item" title="Gallery">
+                        <Link to="/gallery" >
+                            GALLERY
                 </Link>
-                </li>
-                <li className="nav-item" title="About Me">
-                    <Link to="/about" >
-                        About Me
+                    </li>
+                    <hr />
+                    <li className="nav-item" title="About Me">
+                        <Link to="/about" >
+                            ABOUT ME
                 </Link>
-                </li>
-                <li className="nav-item" title="Contact">
-                    <Link to="/contact" >
-                        Contact Me
+                    </li>
+                    <hr />
+                    <li className="nav-item" title="Contact">
+                        <Link to="/contact" >
+                            CONTACT ME
                 </Link>
-                </li>
-                <li className="nav-item" title="Cart">
-                    <Link to="/cart" >
-                        Cart
+                    </li>
+                    <hr />
+                    <li className="nav-item" title="Cart">
+                        <Link to="/cart" >
+                            CART
                 </Link>
-                </li>
-            </ul>
+                    </li>
+                    <hr />
+                </ul>
+            </div>
         </div>
     );
 };
