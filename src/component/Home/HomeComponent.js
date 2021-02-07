@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./homeComponent.css";
+
 
 function Home() {
+
     return (
         <div>
-            home component
+            home page
         </div>
     )
 }

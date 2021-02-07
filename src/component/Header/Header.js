@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './header.css';
 
 function Header() {
     return (
-        <div>
-            header
+        <div id ="header">
+            <h1 id='morgan'>MORGAN DANTON</h1>
         </div>
     )
 }

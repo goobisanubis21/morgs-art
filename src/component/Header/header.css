@@ -1,0 +1,11 @@
+#header {
+    background-color: rgb(20, 20, 20);
+}
+
+#morgan {
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 60px;
+    padding: 20px;
+    color: white;
+}
