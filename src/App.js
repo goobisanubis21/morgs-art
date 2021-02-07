@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavPic from "./component/NavPic/NavPic";
 import Nav from "./component/Nav/Nav";
 import Header from "./component/Header/Header";
 import Home from "./pages/Home";
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
+          <NavPic />
           <Nav />
           <Header />
           <Switch>
