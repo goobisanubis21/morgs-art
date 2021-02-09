@@ -11,6 +11,7 @@ function Gallery() {
             {paintings.map(painting => (
                 <GalleryComponent
                     key={painting.id}
+                    id={painting.id}
                     title={painting.title}
                     image={painting.image}
                     size={painting.size}
