@@ -11,6 +11,6 @@ const paintingSchema = new Schema({
     date: { type: Date, default: Date.now }
 });
 
-const Painting = mongoose.model("paintings", paintingSchema);
+const Painting = mongoose.model("art", paintingSchema);
 
 module.exports = Painting;
