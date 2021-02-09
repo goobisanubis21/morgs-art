@@ -13,3 +13,7 @@
     color: white;
     background-color: rgb(101, 129, 111);
 }
+
+#galleryImg {
+    width: 70%;
+}

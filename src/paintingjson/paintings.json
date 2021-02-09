@@ -2,84 +2,84 @@
     {
         "id": 1,
         "title": "Bee Queen",
-        "image": "./images/bee_queenn.jpg",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612837870/bee_queen_ohcdya.jpg",
         "price": "500 USD",
         "date": "2019"
     },
     {
         "id": 2,
         "title": "Breath",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839212/MorganArt/breath_vlconm.jpg",
         "price": "1000 USD",
         "date": "2020"
     },
     {
         "id": 3,
         "title": "Dark Seas",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839217/MorganArt/dark_seas_slqchm.jpg",
         "price": "1200 USD",
         "date": "2018"
     },
     {
         "id": 4,
         "title": "Florida Foxtrot",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839216/MorganArt/florida_foxtrot_bhksez.jpg",
         "price": "500 USD",
         "date": "2019"
     },
     {
         "id": 5,
         "title": "Genisis",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839215/MorganArt/genisis_qytwym.jpg",
         "price": "1200 USD",
         "date": "2020"
     },
     {
         "id": 6,
         "title": "Golden Hour",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839213/MorganArt/golden_hour_yg9d16.jpg",
         "price": "1500 USD",
         "date": "2017"
     },
     {
         "id": 7,
         "title": "Maid in America",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839214/MorganArt/maid_in_america_dd4eqr.jpg",
         "price": "800 USD",
         "date": "2020"
     },
     {
         "id": 8,
         "title": "Norma Jean",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839217/MorganArt/norma_jeane_h8jy5v.jpg",
         "price": "600 USD",
         "date": "2019"
     },
     {
         "id": 9,
         "title": "Poppy",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839217/MorganArt/poppy_jykm3y.jpg",
         "price": "600 USD",
         "date": "2020"
     },
     {
         "id": 10,
         "title": "Reincarnation",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839222/MorganArt/reincarnation_pprqpc.jpg",
         "price": "1500 USD",
         "date": "2020"
     },
     {
         "id": 11,
         "title": "Serendipity",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839221/MorganArt/serendipity_r45kxg.jpg",
         "price": "1500 USD",
         "date": "2020"
     },
     {
         "id": 12,
         "title": "Where Theres a Whale Theres a Way",
-        "image": "",
+        "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839221/MorganArt/where_theres_a_whale_theres_a_way_xmv7gg.jpg",
         "price": "500 USD",
         "date": "2019"
     }
