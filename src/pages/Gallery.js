@@ -13,6 +13,7 @@ function Gallery() {
                     key={painting.id}
                     title={painting.title}
                     image={painting.image}
+                    size={painting.size}
                     price={painting.price}
                     date={painting.date}
                 />

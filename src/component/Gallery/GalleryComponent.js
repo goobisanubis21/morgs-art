@@ -5,7 +5,8 @@ function GalleryComponent(props) {
     return (
         <div id="gallery">
             <h3>{props.title}</h3>
-            <p><img id="galleryImg" src= {props.image} alt={props.title}></img></p>
+            <p><img className="text-focus-in" id="galleryImg" src= {props.image} alt={props.title}></img></p>
+            <p>{props.size}</p>
             <p>{props.price}</p>
             <p>{props.date}</p>
             <button id="btn" type="submit">Add to Cart</button>
@@ -13,4 +14,4 @@ function GalleryComponent(props) {
     )
 }
 
-export default GalleryComponent
+export default GalleryComponent;

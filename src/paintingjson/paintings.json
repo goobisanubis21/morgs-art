@@ -4,6 +4,7 @@
         "title": "Bee Queen",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612837870/bee_queen_ohcdya.jpg",
         "price": "500 USD",
+        "size": "22x28 Inches",
         "date": "2019"
     },
     {
@@ -11,6 +12,7 @@
         "title": "Breath",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839212/MorganArt/breath_vlconm.jpg",
         "price": "1000 USD",
+        "size": "30x40 Inches",
         "date": "2020"
     },
     {
@@ -18,6 +20,7 @@
         "title": "Dark Seas",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839217/MorganArt/dark_seas_slqchm.jpg",
         "price": "1200 USD",
+        "size": "30x40 Inches",
         "date": "2018"
     },
     {
@@ -25,6 +28,7 @@
         "title": "Florida Foxtrot",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839216/MorganArt/florida_foxtrot_bhksez.jpg",
         "price": "500 USD",
+        "size": "24x30 Inches",
         "date": "2019"
     },
     {
@@ -32,6 +36,7 @@
         "title": "Genisis",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839215/MorganArt/genisis_qytwym.jpg",
         "price": "1200 USD",
+        "size": "24x48 Inches",
         "date": "2020"
     },
     {
@@ -39,6 +44,7 @@
         "title": "Golden Hour",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839213/MorganArt/golden_hour_yg9d16.jpg",
         "price": "1500 USD",
+        "size": "24x48 Inches",
         "date": "2017"
     },
     {
@@ -46,6 +52,7 @@
         "title": "Maid in America",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839214/MorganArt/maid_in_america_dd4eqr.jpg",
         "price": "800 USD",
+        "size": "24x32 Inches",
         "date": "2020"
     },
     {
@@ -53,6 +60,7 @@
         "title": "Norma Jean",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839217/MorganArt/norma_jeane_h8jy5v.jpg",
         "price": "600 USD",
+        "size": "18x24 Inches",
         "date": "2019"
     },
     {
@@ -60,6 +68,7 @@
         "title": "Poppy",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839217/MorganArt/poppy_jykm3y.jpg",
         "price": "600 USD",
+        "size": "20x24 Inches",
         "date": "2020"
     },
     {
@@ -67,6 +76,7 @@
         "title": "Reincarnation",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839222/MorganArt/reincarnation_pprqpc.jpg",
         "price": "1500 USD",
+        "size": "30x40 Inches",
         "date": "2020"
     },
     {
@@ -74,6 +84,7 @@
         "title": "Serendipity",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839221/MorganArt/serendipity_r45kxg.jpg",
         "price": "1500 USD",
+        "size": "30x40 Inches",
         "date": "2020"
     },
     {
@@ -81,6 +92,7 @@
         "title": "Where Theres a Whale Theres a Way",
         "image": "https://res.cloudinary.com/dtodsxdoy/image/upload/v1612839221/MorganArt/where_theres_a_whale_theres_a_way_xmv7gg.jpg",
         "price": "500 USD",
+        "size": "16x20 Inch Oval",
         "date": "2019"
     }
 ]
