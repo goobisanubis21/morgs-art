@@ -10,6 +10,7 @@ function Gallery() {
     }, [])
 
     const [arts, setArt] = useState([])
+    const [clickedArt, setClickedArt] = useState([])
 
     function getArtwork() {
         API.getArt().then(res => {
@@ -18,11 +19,21 @@ function Gallery() {
             .catch(err => console.log(err))
     }
 
+    function clicked(e) {
+        e = window.event
+        const click = e.target;
+        const getPainting = arts.find(artPainting => artPainting._id === click.id)
+        console.log(getPainting)
+        setClickedArt(getPainting)
+        console.log(clickedArt)
+    }
+
     return (
         <div>
             <h4 id="oilPaintingsTitle">Oil Paintings</h4>
             <GalleryComponent
                 arts={arts}
+                clicked={clicked}
             />
         </div>
     )
