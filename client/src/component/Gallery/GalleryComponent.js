@@ -5,15 +5,16 @@ import { Link } from "react-router-dom";
 function GalleryComponent(props) {
     return (
         <div id="gallery">
-            <h3>{props.title}</h3>
-            <p>
-            <Link to ="/painting"><img className="text-focus-in galleryImg" id={props.id} src={props.image} alt={props.title}>
-                </img></Link>
-            </p>
-            <p>{props.size}</p>
-            <p>{props.price}</p>
-            <p>{props.date}</p>
-            <button id="btn" type="submit">Add to Cart</button>
+            {props.arts.map(art => (
+                <div key={art._id}>
+                    <h3>{art.title}</h3>
+                    <p><Link to="/painting"><img className="text-focus-in galleryImg" id={art.id} src={art.image} alt={art.title}></img></Link></p>
+                    <p>{art.size}</p>
+                    <p>{art.price}</p>
+                    <p>{art.date}</p>
+                    <button id="btn" type="submit">Add to Cart</button>
+                </div>
+            ))}
         </div>
     )
 }

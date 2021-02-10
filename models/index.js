@@ -1,3 +1,3 @@
 module.exports = {
-    Painting: require("./paintings")
+    Painting: require("./painting")
 };

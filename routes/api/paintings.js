@@ -1,10 +1,8 @@
 const router = require("express").Router();
 const paintingController = require("../../controller/paintingController");
 
-// Matches with "/api/books/"
 router.route("/")
-  .get(paintingController.findAll)
-
+  .get(paintingController.findAll);
 
 // Matches with "/api/books/:id"
 // router
