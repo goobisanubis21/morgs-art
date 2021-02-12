@@ -1,6 +1,5 @@
 import React from 'react';
 import "./gallery.css";
-import { Link } from "react-router-dom";
 
 function GalleryComponent(props) {
     return (

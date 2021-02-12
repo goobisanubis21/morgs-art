@@ -1,0 +1,40 @@
+.cartTitle {
+    text-align: center;
+    color: white;
+    font-family: 'Gruppo', cursive;
+}
+
+.emptyCart {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: 200;
+}
+
+.checkoutBtnDiv {
+    text-align: center;
+}
+
+.checkoutBtn {
+    margin-bottom: 80px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(18, 96, 148);
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    border-radius: 999px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.checkoutBtn:hover {
+    background-color: green;
+}
+
+.removeBtnn {
+    color: white;
+    background-color: rgb(255, 2, 2);
+    padding: 10px;
+}
