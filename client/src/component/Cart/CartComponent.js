@@ -11,7 +11,7 @@ function CartComponent(props) {
                         <img className="text-focus-in galleryImg" id={art._id} src={art.image} alt={art.title}></img>
                     </p>
                     <p>{art.size}</p>
-                    <p>{art.price}</p>
+                    <p>{art.price} USD</p>
                     <button id={art._id} className="removeBtnn" type="submit" onClick={(e) => props.removeFromCart(e)}>Remove From Cart</button>
                 </div>
             ))}
