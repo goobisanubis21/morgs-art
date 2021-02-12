@@ -10,7 +10,10 @@ function Gallery() {
     }, [])
 
     const [arts, setArt] = useState([])
-    const [clickedArt, setClickedArt] = useState([])
+    const [clickedArt, setClickedArt] = useState(() => {
+        var storage = localStorage.getItem("values")
+        return storage !== null ? JSON.parse(storage) : []
+    })
 
     function getArtwork() {
         API.getArt().then(res => {
@@ -19,13 +22,14 @@ function Gallery() {
             .catch(err => console.log(err))
     }
 
-    function clicked(e) {
-        e = window.event
+    function addToCart(e) {
         const click = e.target;
-        const getPainting = arts.find(artPainting => artPainting._id === click.id)
+        let getPainting = [...clickedArt]
+        getPainting.push(arts.find(artPainting => artPainting._id === click.id))
         console.log(getPainting)
         setClickedArt(getPainting)
-        console.log(clickedArt)
+        console.log(...clickedArt)
+        localStorage.setItem("values", JSON.stringify(getPainting))
     }
 
     return (
@@ -33,7 +37,7 @@ function Gallery() {
             <h4 id="oilPaintingsTitle">Oil Paintings</h4>
             <GalleryComponent
                 arts={arts}
-                clicked={clicked}
+                addToCart={addToCart}
             />
         </div>
     )
