@@ -29,6 +29,9 @@ function ContactComponent() {
                 console.log(error.text);
             });
             e.target.reset()
+            setTimeout(() => {
+                window.location.reload()
+            }, 2000);
     }
 
     return (
