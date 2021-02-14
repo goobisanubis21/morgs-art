@@ -1,15 +1,11 @@
-#homePage {
-    background-color: rgb(20, 20, 20);
-}
-
 #featuredDiv {
     text-align: center;
     color: white;
-    font-family: 'Gruppo', cursive;;
+    font-family: 'Gruppo', cursive;
 }
 
 #featuredPainting {
-    width: 50%;
+    width: 80%;
     margin-top: 20px;
     margin-bottom: 100px;
 }

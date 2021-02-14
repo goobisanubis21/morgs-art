@@ -4,6 +4,7 @@ import "./gallery.css";
 function GalleryComponent(props) {
     return (
         <div>
+            <h5 className="description">-Hand painted with oils on canvas, each peice is a one of a kind modern original-</h5>
             {props.arts.map(art => (
                 <div id="gallery" key={art._id}>
                     <h3>{art.title}</h3>

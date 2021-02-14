@@ -38,3 +38,8 @@
     background-color: rgb(255, 2, 2);
     padding: 10px;
 }
+
+.total {
+    color: white;
+    margin-bottom: 40px;
+}
