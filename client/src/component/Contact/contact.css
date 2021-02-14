@@ -1,0 +1,56 @@
+.contactTitle {
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.contactDiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.inputDiv {
+    margin: 40px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 999px;
+    height: 50px;
+    background-color: white;
+}
+
+.inputs {
+    width: 90%;
+    background-color: white;
+    align-items: center;
+    height: 100%;
+    border: none;
+    outline-width: 0;
+    border-radius: 999px;
+}
+
+.textAreaDesciption {
+    width: 75%;
+    height: 300px;
+    background-color: white;
+    color: black;
+}
+
+.contactBtn {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 999px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contactBtn:hover {
+    background-color: rgb(101, 129, 111);
+    color: white;
+}
