@@ -1,8 +1,22 @@
 import React from 'react';
 import "./contact.css";
-import emailjs, { send } from "emailjs-com";
+import emailjs from "emailjs-com";
 
 function ContactComponent() {
+
+    function handleBtn() {
+        let firstName = document.getElementById("firstName")
+        let lastName = document.getElementById("lastName")
+        let email = document.getElementById("email")
+        let message = document.getElementById("message")
+        const buttonn = document.getElementById("sendEmailBtn")
+        
+        if (firstName.value && lastName.value && email.value && message.value) {
+            buttonn.disabled = false
+        } else if ( firstName.value || lastName.value || email.value || message.value === null) {
+            buttonn.disabled = true
+        }
+    }
 
     function sendEmail(e) {
         e.preventDefault()
@@ -10,6 +24,7 @@ function ContactComponent() {
         emailjs.sendForm('service_5xm59ii', 'template_0y6f7zd', e.target, 'user_ea6we13Io9gaiYI7e2QqJ')
             .then((result) => {
                 console.log(result.text);
+                alert("Email sent!")
             }, (error) => {
                 console.log(error.text);
             });
@@ -20,20 +35,20 @@ function ContactComponent() {
         <div>
             <p className="contactTitle">Contact</p>
             <div className="contactDiv">
-                <form className="inputForms" onSubmit={sendEmail}>
+                <form className="inputForms" onSubmit={sendEmail} onChange={handleBtn}>
                     <div className="inputDiv">
-                        <input className="inputs" type="text" placeholder="First Name" name="first_name"></input>
+                        <input id="firstName" className="inputs" type="text" placeholder="First Name" name="first_name"></input>
                     </div>
                     <div className="inputDiv">
-                        <input className="inputs" type="text" placeholder="Last Name" name="last_name"></input>
+                        <input id="lastName" className="inputs" type="text" placeholder="Last Name" name="last_name"></input>
                     </div>
                     <div className="inputDiv">
-                        <input className="inputs" type="email" placeholder="Email" name="email"></input>
+                        <input id="email" className="inputs" type="email" placeholder="Email" name="email"></input>
                     </div>
                     <div>
-                        <textarea className="textAreaDesciption" type="text" placeholder="Description" name="message"></textarea>
+                        <textarea id="message" className="textAreaDesciption" type="text" placeholder="Description" name="message"></textarea>
                     </div>
-                    <button className="contactBtn" type="submit">Send</button>
+                    <button disabled id="sendEmailBtn" className="contactBtn" type="submit">Send</button>
                 </form>
             </div>
         </div>
