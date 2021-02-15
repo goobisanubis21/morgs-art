@@ -1,5 +1,10 @@
 import React from 'react';
 import "./cart.css";
+import StripeCheckout from "react-stripe-checkout";
+import axios from "axios";
+import { toast } from "react-toastify";
+
+
 
 function CartComponent(props) {
 
@@ -23,6 +28,24 @@ function CartComponent(props) {
 
     var youPay = sum + calcTax + shipping;
 
+    toast.configure()
+
+    async function handleToken(token) {
+        const response = await axios.post("http://localhost:3001/checkout", {
+            token,
+            total,
+            youPay
+        });
+        const {status} = response.data
+        if (status === "success") {
+            toast("Success! Check email for details.",
+            { type: "success"})
+        } else {
+            toast("Something went wrong", 
+            { type: "error"})
+        }
+    }
+
     return (
         <div>
             {props.value.map(art => (
@@ -43,7 +66,16 @@ function CartComponent(props) {
                     <p><strong>Shipping and Handling</strong>: {shipping} USD</p>
                     <p><strong>Total:</strong> {youPay} USD</p>
                 </div>
-                <button className="checkoutBtn">Checkout</button>
+                <div className="checkoutBtn">
+                    <StripeCheckout
+                        stripeKey="pk_test_51IFVIrC94ABBpAEbBUTI0fN8SzkU4p56lCQF3OUl4bXvEkfJqVIDejRvsGdcT0WVCjekqFk0kAJc46lcOW53mrK000iMVNvx0W"
+                        token={handleToken}
+                        billingAddress
+                        shippingAddress
+                        amount={youPay * 100}
+                        name= {"painting"}
+                    />
+                </div>
             </div>
         </div>
     )
