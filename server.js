@@ -1,4 +1,5 @@
-const stripe = require('stripe')('sk_test_51IFVIrC94ABBpAEb2HBKe37ca8EGQ89bdb9M8WkGHc1lvy7KEKEDQoJ52tc3fr4gl5g0so2x6VdR1ch9PEYBvXre00B6v1iV31');
+require ("dotenv").config();
+const stripe = require('stripe')(process.env.API_KEY);
 const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
@@ -7,6 +8,7 @@ const { v4: uuidv4 } = require('uuid');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const apiRoutes = require("./routes");
+
 
 app.use(cors());
 
@@ -38,7 +40,7 @@ app.post("/checkout" , async (req, res) => {
         currency: "usd",
         customer: customer.id,
         receipt_email: token.email,
-        description: `Purchased paitning(s) for ${total.price}`,
+        description: `Purchased ${total.title}`,
         shipping: {
           name: token.card.name,
           address: {

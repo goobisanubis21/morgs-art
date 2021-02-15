@@ -3,6 +3,7 @@ import "./cart.css";
 import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -38,10 +39,10 @@ function CartComponent(props) {
         });
         const {status} = response.data
         if (status === "success") {
-            toast("Success! Check email for details.",
+            toast("Your payment was a success! Check email shortly for confirmation.",
             { type: "success"})
         } else {
-            toast("Something went wrong", 
+            toast("Something went wrong with your payment, Please try again", 
             { type: "error"})
         }
     }
