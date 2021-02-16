@@ -6,7 +6,7 @@
 
 * Allows a user to view items, contact via email and purchase any item on the website.
 
-## HomePage Page:
+## Home Page:
 
 ![image](https://user-images.githubusercontent.com/69410816/108013378-90089500-6fd9-11eb-9ac5-2d487ceffa1b.png)
 
