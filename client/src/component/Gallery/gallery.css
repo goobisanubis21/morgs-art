@@ -62,4 +62,15 @@
       opacity: 1;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    #gallery > h3 {
+      font-size: 25px;
+    }
+
+    .galleryImg {
+      width: 100%;
+    }
+
+  }
   

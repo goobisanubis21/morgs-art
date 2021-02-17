@@ -54,3 +54,13 @@
     background-color: rgb(101, 129, 111);
     color: white;
 }
+
+@media screen and (max-width: 800px) {
+    .inputDiv {
+        width: 100%;
+    }
+
+    .textAreaDesciption {
+        width: 100%;
+    }
+}
