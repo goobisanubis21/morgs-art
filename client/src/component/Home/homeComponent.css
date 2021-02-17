@@ -1,3 +1,7 @@
+#homePage {
+    margin-bottom: 100px;
+}
+
 #featuredDiv {
     text-align: center;
     color: white;
@@ -5,8 +9,11 @@
 }
 
 #featuredPainting {
-    width: 80%;
+    width: 60%;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
- 
+
+.featuredPaintingText {
+    margin: 45px;
+}

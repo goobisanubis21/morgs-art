@@ -57,7 +57,7 @@ function CartComponent(props) {
                     </p>
                     <p>{art.size}</p>
                     <p>{art.price} USD</p>
-                    <button id={art._id} className="removeBtnn" type="submit" onClick={(e) => props.removeFromCart(e)}>Remove From Cart</button>
+                    <button id={art._id} className="removeBtnn" type="submit" onClick={(e) => props.removeFromCart(e)}>Remove</button>
                 </div>
             ))}
             <div className="checkoutBtnDiv">
