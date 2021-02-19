@@ -24,3 +24,9 @@
     margin-right: auto;
     margin-bottom: 160px;
 }
+
+@media screen and (max-width: 800px) {
+    #featuredPainting {
+        width: 85%;
+    }
+}
