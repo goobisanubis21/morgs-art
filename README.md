@@ -16,7 +16,7 @@
 
 ## AboutMe Page:
 
-coming soon
+![image](https://user-images.githubusercontent.com/69410816/108455620-921e5e00-723c-11eb-8d2d-3b2e797d46af.png)
 
 ## ContactMe Page:
 
