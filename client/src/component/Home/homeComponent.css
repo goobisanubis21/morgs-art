@@ -11,7 +11,7 @@
 #featuredPainting {
     width: 60%;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .featuredPaintingText {
@@ -22,4 +22,5 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 160px;
 }

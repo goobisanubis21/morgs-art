@@ -8,15 +8,30 @@
 }
 
 .morgs {
-    width: 25%;
+    width: 35%;
     margin-top: 25px;
+}
+
+.moreMorgs {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.morgs2 {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.morgs3 {
+    width: 25%;
+    margin-left: 5%;
 }
 
 .aboutMeInfo {
     width: 70%;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 135px;
+    margin-bottom: 65px;
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(57, 110, 110) !important;
@@ -25,4 +40,21 @@
     font-family: 'Gruppo', cursive;
     font-size: 22px;
     padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .morgs {
+        width: 70%;
+    }
+
+    .morgs2 {
+        width: 70%;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+
+    .morgs3 {
+        width: 70%;
+        margin-left: auto;
+    }
 }

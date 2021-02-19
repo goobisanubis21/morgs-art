@@ -35,7 +35,7 @@ function ContactComponent() {
     }
 
     return (
-        <div>
+        <div className="mainContactDiv">
             <p className="contactTitle">Contact</p>
             <div className="contactDiv">
                 <form className="inputForms" onSubmit={sendEmail} onChange={handleBtn}>
