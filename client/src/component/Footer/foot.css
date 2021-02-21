@@ -1,5 +1,5 @@
 .theFoot {
-    background-color: rgb(101, 129, 111);
+    background-color: rgb(99, 139, 129);
     height: 80px;
     position: fixed;
     bottom: 0;
@@ -7,7 +7,7 @@
 }
 
 .theFoot h6 {
-    background-color: rgb(101, 129, 111) !important;
+    background-color: rgb(99, 139, 129) !important;
     width: 100%;
     color: rgb(255, 255, 255);
     text-align: center;

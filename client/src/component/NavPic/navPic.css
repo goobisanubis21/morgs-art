@@ -1,3 +1,5 @@
-#navPic {
-    width: 100%;
+.carouselMainDiv > div > div > div > img{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
 }

@@ -20,7 +20,7 @@
 }
 
 #border {
-    background-color: rgb(101, 129, 111);
+    background-color: rgb(131, 139, 137);
     margin: 5px;
     border: 2px solid rgb(255, 255, 255);
     padding: 10px;
@@ -28,12 +28,11 @@
 }
 
 #navItem {
-    background-color: rgb(101, 129, 111);
+    background-color: rgb(137, 189, 176);
     padding: 15px;
     border-bottom: 2px solid rgb(0, 0, 0);
     border-top: 2px solid rgb(0, 0, 0);
     z-index: 1;
-    /* box-shadow: 0px 0px 40px 1px rgb(168, 168, 168); */
     position: sticky;
     top: 0;
 }
@@ -53,13 +52,12 @@
 
 .hamburger {
     display: none;
-    background-color: teal;
+    background-color: rgb(102, 128, 128);
     flex-direction: column;
     width: 60px;
     height: 53px;
     padding: 10px;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 .hamburger .bar {
@@ -101,8 +99,7 @@
     .webHidden li {
         margin-top: 10px;
         cursor: pointer;
-        background-color: teal;
-        border-radius: 999px;
+        background-color: rgb(102, 128, 128);
     }
 
     .webHidden li a {
