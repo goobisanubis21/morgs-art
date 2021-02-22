@@ -1,5 +1,5 @@
 #homePage {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 #featuredDiv {
@@ -22,20 +22,18 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
-.daVinci {
-    position: relative;
-}
-
-.daVinciImg {
-    width: 50%;
-    border-radius: 5px;
+.bonnie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
 }
 
 .centered {
-    font-family: serif;
+    font-family: 'Gruppo', cursive;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,48 +41,92 @@
     color: black;
     font-weight: 900;
     cursor: pointer;
-    background-color: rgb(216, 216, 216);
-    width: 50%;
+    background-color: pink;
+    width: 400px;
     
   }
 
   .morgansAbout {
     position: relative;
-    margin-top: 100px;
+    
   }
 
   .morgansAboutImg {
-      width: 50%;
+      width: 400px;
+      border-radius: 50%;
+      border: 5px solid white;
   }
+  
+.breathDivImg {
+    position: relative;
+}
+
+.breathImgImg {
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
 
   .morgansContact {
     position: relative;
-    margin-top: 100px;
   }
 
   .morgansContactImg {
-      width: 50%;
+      width: 400px;
+      border-radius: 50%;
+      border: 5px solid white;
   }
+
+@media screen and (max-width: 1220px) {
+    .bonnie {
+        display: block;
+    }
+
+    .centered {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .morgansAbout {
+        margin-bottom: 100px;
+    }
+
+    .morgansAboutImg {
+        width: 400px;
+    }
+
+    .morgansContactImg {
+        width: 400px;
+    }
+
+    .breathDivImg {
+        margin-bottom: 100px;
+    }
+
+    .breathImgImg {
+        width: 400px;
+    }
+
+}
 
 @media screen and (max-width: 800px) {
     #featuredPainting {
         width: 85%;
     }
 
-    .daVinciImg {
-        width: 80%;
-    }
-
     .centered {
         font-size: 20px;
-        width: 80%;
+        width: 300px;
     }
-
     .morgansAboutImg {
-        width: 80%;
+        width: 300px;
     }
 
     .morgansContactImg {
-        width: 80%;
+        width: 300px;
+    }
+
+    .breathImgImg {
+        width: 300px;
     }
 }
