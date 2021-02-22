@@ -2,7 +2,7 @@ import React from 'react';
 import "./about.css";
 import Morgs from "./morgs.png";
 import Morgs2 from "./IMG_5321.jpeg";
-import Morgs3 from "./IMG_5344.jpeg";
+import Morgs3 from "./otherAboutMorgs.jpeg";
 
 function AboutMeComponent() {
     return (
