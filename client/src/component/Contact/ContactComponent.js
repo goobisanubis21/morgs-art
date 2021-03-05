@@ -21,7 +21,7 @@ function ContactComponent() {
     function sendEmail(e) {
         e.preventDefault()
 
-        emailjs.sendForm('service_5xm59ii', 'template_0y6f7zd', e.target, 'user_ea6we13Io9gaiYI7e2QqJ')
+        emailjs.sendForm(process.env.REACT_APP_ID1, process.env.REACT_APP_ID2, e.target, process.env.REACT_APP_ID3)
             .then((result) => {
                 console.log(result.text);
                 alert("Email sent!")
