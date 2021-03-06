@@ -32,12 +32,22 @@ function Gallery() {
         localStorage.setItem("values", JSON.stringify(getPainting))
     }
 
+    function zoomed(e) {
+        const zoomClick = e.target.id
+        console.log(zoomClick)
+        let zoomedWork =[]
+        zoomedWork.push(arts.find(zoomedPainting => zoomedPainting._id === zoomClick))
+        console.log(zoomedWork)
+        // window.location.href="/gallery/" + zoomClick
+    }
+
     return (
         <div>
             <h4 id="oilPaintingsTitle">Oil Paintings</h4>
             <GalleryComponent
                 arts={arts}
                 addToCart={addToCart}
+                zoomed={zoomed}
             />
         </div>
     )

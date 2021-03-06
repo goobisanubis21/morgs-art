@@ -9,7 +9,7 @@ function GalleryComponent(props) {
                 <div id="gallery" key={art._id}>
                     <h3>{art.title}</h3>
                     <p>
-                        <img className="text-focus-in galleryImg" id={art._id} src={art.image} alt={art.title}></img>
+                        <img className="text-focus-in galleryImg" id={art._id} src={art.image} alt={art.title} onClick={(e) => props.zoomed(e)}></img>
                     </p>
                     <p>{art.size}</p>
                     <p>{art.price} USD</p>
