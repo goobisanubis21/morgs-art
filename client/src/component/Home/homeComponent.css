@@ -4,8 +4,11 @@
 
 #featuredDiv {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Gruppo', cursive;
+    background-image: url("https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #featuredPainting {
@@ -15,14 +18,23 @@
 }
 
 .featuredPaintingText {
-    margin: 45px;
+    font-size: 50px;
+    padding: 45px;
+    font-weight: 900;
+}
+
+.featuredCard {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black !important;
+    margin-bottom: 20px;
 }
 
 .featuredInfo {
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .bonnie {

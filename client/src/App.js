@@ -9,7 +9,6 @@ import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/Contact"
 import Cart from "./pages/Cart";
 import Footer from "./component/Footer/Footer";
-import Painting from "./component/Painting/Painting"
 
 function App() {
   return (
@@ -22,10 +21,10 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/gallery" component={Gallery}/>
+            <Route exact path="/painting" component={Gallery}/>
             <Route exact path="/about" component={AboutMe} />
             <Route exact path="/contact" component={ContactMe}/>
             <Route exact path="/cart" component={Cart} />
-            <Route exact path="/gallery/:id" component={Painting} />
           </Switch>
           <Footer />
         </div>

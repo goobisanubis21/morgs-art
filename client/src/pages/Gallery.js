@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import GalleryComponent from "../component/Gallery/GalleryComponent";
 import API from '../utils/API';
 import "./style.css";
+// import PaintingComp from "../component/Painting/Painting"
+import { useHistory } from "react-router-dom";
 
 function Gallery() {
+
+    const history = useHistory()
 
     useEffect(() => {
         getArtwork()
@@ -14,6 +18,7 @@ function Gallery() {
         var storage = localStorage.getItem("values")
         return storage !== null ? JSON.parse(storage) : []
     })
+    const [zoomedArt, setZoomedArt] = useState([])
 
     function getArtwork() {
         API.getArt().then(res => {
@@ -35,22 +40,41 @@ function Gallery() {
     function zoomed(e) {
         const zoomClick = e.target.id
         console.log(zoomClick)
-        let zoomedWork =[]
+        let zoomedWork = []
         zoomedWork.push(arts.find(zoomedPainting => zoomedPainting._id === zoomClick))
         console.log(zoomedWork)
-        // window.location.href="/gallery/" + zoomClick
+        setZoomedArt(zoomedWork)
+        history.push("/painting/")
     }
 
-    return (
-        <div>
-            <h4 id="oilPaintingsTitle">Oil Paintings</h4>
-            <GalleryComponent
-                arts={arts}
-                addToCart={addToCart}
-                zoomed={zoomed}
-            />
-        </div>
-    )
+
+
+    if (window.location.pathname === "/painting/") {
+        if (zoomedArt[0] === undefined) {
+            window.location.href = "/gallery"
+        }
+
+        return (
+            <div className={zoomedArt[0].title.split(" ").join("")}>
+                <div className="clickedPaintingDiv">
+                    <h1 className="clickedPaintingTitle">{zoomedArt[0].title}</h1>
+                    <img className="clickedPaintingImg" src={zoomedArt[0].image} alt="clicked painting"></img>
+                </div>
+            </div>
+        )
+    } else {
+
+        return (
+            <div>
+                <h4 id="oilPaintingsTitle">Oil Paintings</h4>
+                <GalleryComponent
+                    arts={arts}
+                    addToCart={addToCart}
+                    zoomed={zoomed}
+                />
+            </div>
+        )
+    }
 }
 
 export default Gallery

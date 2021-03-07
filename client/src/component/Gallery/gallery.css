@@ -30,7 +30,7 @@
 }
 
 .galleryImg {
-    width: 90%;
+    width: 70%;
     cursor: pointer;
 }
 
@@ -78,4 +78,84 @@
     }
 
   }
-  
+
+  .clickedPaintingDiv {
+    text-align: center;
+    
+  }
+
+  .clickedPaintingTitle {
+    color: white;
+  }
+
+  .clickedPaintingImg {
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 350px;
+  }
+
+  .BeeQueen {
+    background-image: url("https://i.pinimg.com/originals/59/36/8b/59368b8e07f840bf6d76ba944d007da6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Breath {
+    background-image: url("https://images.pexels.com/photos/59810/smoke-fumes-black-white-59810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .FloridaFoxtrot {
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX26236050.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Genisis {
+    background-image: url("https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .GoldenHour {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/81ddcc0d-fcba-4c7a-b71e-81f0bfe6d8b4/d162lvt-adf20671-872f-4a2e-8a73-e63a7edf5b47.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODFkZGNjMGQtZmNiYS00YzdhLWI3MWUtODFmMGJmZTZkOGI0XC9kMTYybHZ0LWFkZjIwNjcxLTg3MmYtNGEyZS04YTczLWU2M2E3ZWRmNWI0Ny5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.71HdImpvsUz9-Z9MZrk6ehhNvg53O6ltgf1HNALQ-8Y");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .MaidinAmerica {
+    background-image: url("https://images.unsplash.com/photo-1549194400-06e6874c2fd1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .NormaJean {
+    background-image: url("https://i.pinimg.com/736x/2e/a0/90/2ea090094aafa39bd76910e2c3e18352.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Poppy {
+    background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/03/Poppy-field-red-flowers-dark-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Reincarnation {
+    background-image: url("https://wallpapercave.com/wp/wp5575274.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Serendipity {
+    background-image: url("https://www.wallpaperflare.com/static/716/247/769/stars-forest-trees-night-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .WhereTheresaWhaleTheresaWay {
+    background-image: url("https://i.pinimg.com/originals/5e/1a/cb/5e1acb3a053d4e78f3089dbe2f44da2d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
