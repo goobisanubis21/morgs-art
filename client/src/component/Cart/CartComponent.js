@@ -48,7 +48,7 @@ function CartComponent(props) {
     }
 
     return (
-        <div>
+        <div className="mainCartDiv">
             {props.value.map(art => (
                 <div id="gallery" key={art._id}>
                     <h3>{art.title}</h3>

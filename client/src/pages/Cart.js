@@ -19,7 +19,7 @@ function Cart() {
         )
     }
     return (
-        <div>
+        <div className="mainCartDiv">
             <h1 className="cartTitle">Cart</h1>
             <CartComponent 
                 value={value}

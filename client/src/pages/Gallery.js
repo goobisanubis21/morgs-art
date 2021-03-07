@@ -35,6 +35,7 @@ function Gallery() {
         setClickedArt(getPainting)
         console.log(...clickedArt)
         localStorage.setItem("values", JSON.stringify(getPainting))
+        alert("Added to Cart")
     }
 
     function zoomed(e) {
