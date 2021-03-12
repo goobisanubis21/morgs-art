@@ -91,7 +91,14 @@
   .clickedPaintingImg {
     width: 70%;
     margin-top: 50px;
-    margin-bottom: 350px;
+    margin-bottom: 30px;
+  }
+
+  .backLink {
+    padding-bottom: 350px;
+    font-size: 30px;
+    color: rgb(47, 0, 255);
+    font-weight: 500;
   }
 
   .BeeQueen {
@@ -158,4 +165,17 @@
     background-image: url("https://i.pinimg.com/originals/5e/1a/cb/5e1acb3a053d4e78f3089dbe2f44da2d.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .toOriginals {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .soldout {
+    color: red;
+  }
+
+  .available {
+    color: green;
   }

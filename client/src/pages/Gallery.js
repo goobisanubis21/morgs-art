@@ -2,16 +2,20 @@ import React, { useState, useEffect } from 'react';
 import GalleryComponent from "../component/Gallery/GalleryComponent";
 import API from '../utils/API';
 import "./style.css";
-// import PaintingComp from "../component/Painting/Painting"
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 
 function Gallery() {
 
     const history = useHistory()
+    var { pathname } = useLocation()
 
     useEffect(() => {
         getArtwork()
     }, [])
+
+    useEffect(() => {
+        if (pathname = "/painting/")window.scrollTo(0,0)
+    }, [zoomed])
 
     const [arts, setArt] = useState([])
     const [clickedArt, setClickedArt] = useState(() => {
@@ -49,7 +53,6 @@ function Gallery() {
     }
 
 
-
     if (window.location.pathname === "/painting/") {
         if (zoomedArt[0] === undefined) {
             window.location.href = "/gallery"
@@ -60,6 +63,7 @@ function Gallery() {
                 <div className="clickedPaintingDiv">
                     <h1 className="clickedPaintingTitle">{zoomedArt[0].title}</h1>
                     <img className="clickedPaintingImg" src={zoomedArt[0].image} alt="clicked painting"></img>
+                    <p className="backLink"><a className="backLink" href ="/gallery">Back</a></p>
                 </div>
             </div>
         )

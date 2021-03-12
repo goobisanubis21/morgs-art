@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./about.css";
-import Morgs from "./morgs.png";
+import Morgs from "./morgs.jpg";
 import Morgs2 from "./IMG_5321.jpeg";
 import Morgs3 from "./otherAboutMorgs.jpeg";
+import { useLocation } from "react-router-dom";
 
 function AboutMeComponent() {
+
+    var { pathname } = useLocation()
+    useEffect(() => {
+        if (pathname = "/about")window.scrollTo(0,0)
+    }, [])
+
     return (
         <div>
             <div className="aboutImgDiv">
