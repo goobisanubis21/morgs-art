@@ -31,9 +31,6 @@ function NavPic() {
                         <img src={Genisis} className="d-block w-50" alt="Genisis"></img>
                     </div>
                     <div className="carousel-item data-interval= 2000">
-                        <img src={Golden} className="d-block w-50" alt="Golden"></img>
-                    </div>
-                    <div className="carousel-item data-interval= 2000">
                         <img src={Maid} className="d-block w-50" alt="Maid"></img>
                     </div>
                     <div className="carousel-item data-interval= 2000">
