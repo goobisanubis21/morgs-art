@@ -32,7 +32,7 @@ function CartComponent(props) {
     toast.configure()
 
     async function handleToken(token) {
-        const response = await axios.post("/checkout", {
+        const response = await axios.post("https://morgandanton.com/checkout", {
         // const response = await axios.post("http://localhost:3001/checkout", {
             token,
             total,
@@ -70,7 +70,7 @@ function CartComponent(props) {
                 </div>
                 <div className="checkoutBtn">
                     <StripeCheckout
-                        stripeKey="pk_test_51IFVIrC94ABBpAEbBUTI0fN8SzkU4p56lCQF3OUl4bXvEkfJqVIDejRvsGdcT0WVCjekqFk0kAJc46lcOW53mrK000iMVNvx0W"
+                        stripeKey="pk_live_51IKmdFFNdWT0DQC2u0ASlWFhRFdukErBj1ZkGiB6zkI4zMop4JJCgZPs5TamQIS6c7xDrqVg7jtdJKghYYNgC0pw00tfmoFQZc"
                         token={handleToken}
                         billingAddress
                         shippingAddress
