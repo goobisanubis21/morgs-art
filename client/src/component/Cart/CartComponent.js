@@ -32,7 +32,7 @@ function CartComponent(props) {
     toast.configure()
 
     async function handleToken(token) {
-        const response = await axios.post("https://morgandanton.com/checkout", {
+        const response = await axios.post("https://morgandanton.com/cart", {
         // const response = await axios.post("http://localhost:3001/checkout", {
             token,
             total,
