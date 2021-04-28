@@ -71,6 +71,7 @@ function CartComponent(props) {
                 <div className="checkoutBtn">
                     <StripeCheckout
                         stripeKey="pk_live_51IKmdFFNdWT0DQC2u0ASlWFhRFdukErBj1ZkGiB6zkI4zMop4JJCgZPs5TamQIS6c7xDrqVg7jtdJKghYYNgC0pw00tfmoFQZc"
+                        // stripeKey="pk_test_51IFVIrC94ABBpAEbBUTI0fN8SzkU4p56lCQF3OUl4bXvEkfJqVIDejRvsGdcT0WVCjekqFk0kAJc46lcOW53mrK000iMVNvx0W"
                         token={handleToken}
                         billingAddress
                         shippingAddress
