@@ -27,7 +27,9 @@ function CartComponent(props) {
 
     var shipping = sum * .1;
 
-    var youPay = sum + calcTax + shipping;
+    var iPay = sum + calcTax + shipping;
+
+    var youPay = iPay.toFixed(2)
 
     toast.configure()
 
