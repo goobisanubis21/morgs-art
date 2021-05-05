@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavPic from "./component/NavPic/NavPic";
 import Nav from "./component/Nav/Nav";
-import Header from "./component/Header/Header";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import AboutMe from "./pages/AboutMe";
@@ -17,7 +16,6 @@ function App() {
         <div>
           <NavPic />
           <Nav />
-          <Header />
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/gallery" component={Gallery}/>

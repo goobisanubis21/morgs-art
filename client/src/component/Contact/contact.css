@@ -5,8 +5,9 @@
 .contactTitle {
     text-align: center;
     font-family: 'Gruppo', cursive;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
+    margin-top: 50px;
 }
 
 .contactDiv {

@@ -71,7 +71,7 @@ function Gallery() {
 
         return (
             <div>
-                <h4 id="oilPaintingsTitle">Oil Paintings</h4>
+                <h1 style={{fontSize: '60px', marginTop: '30px', marginBottom: '40px'}} id="oilPaintingsTitle">Shop</h1>
                 <GalleryComponent
                     arts={arts}
                     addToCart={addToCart}

@@ -5,12 +5,14 @@ import genisis from "./genisis.JPG";
 import MorgsContact from "./morgsContact.jpeg";
 import MorgsAbout from "./image_6487327.JPG";
 import Breath from "./breath.jpg"
+import Header from "../Header/Header"
 
 
 function Home() {
 
     return (
         <div id="homePage">
+            <Header/>
             <div id="featuredDiv">
                 <h1 className="featuredPaintingText">Featured Painting</h1>
                 <img id="featuredPainting" alt="genisis" src={genisis}></img>
